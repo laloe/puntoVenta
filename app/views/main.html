@@ -22,7 +22,7 @@
           </a>
         </li>
         <li>
-          <a href="typography.html">
+          <a ui-sref="main.home.productos">
             <i class="ti-text"></i>
             <p>Ventas</p>
           </a>
@@ -60,7 +60,11 @@
         </div>
       </div>
     </nav>
-
+    <div class="content">
+      <div class="container-fluid">
+        <ui-view></ui-view>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container-fluid">
         <div class="copyright pull-right">
