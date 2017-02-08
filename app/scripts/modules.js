@@ -18,7 +18,7 @@ angular
 				},
 				url: '/',
 				templateUrl: 'views/main.html',
-				controller: 'main',
+				controller: 'MainCtrl',
 				controllerAs: '$ctrl'
 			}
 		];
