@@ -8,10 +8,11 @@
  * Controller of the puntoVentaApp
  */
 angular.module('puntoVentaApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('MainCtrl', function($state) {
+    var vm = this;
+    vm.salir = salir;
+
+    function salir() {
+      $state.go('main.login');
+    }
   });

@@ -14,10 +14,20 @@ angular
       {
         name: 'main.home',
         data: {
+          pageTitle: 'INICIO',
+        },
+        url: '/home',
+        templateUrl: 'views/main.html',
+        controller: 'MainCtrl',
+        controllerAs: '$ctrl'
+      },
+      {
+        name: 'main.login',
+        data: {
           pageTitle: 'BIENVENIDO',
         },
         url: '/',
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/login/login.html',
         controller: 'MainCtrl',
         controllerAs: '$ctrl'
       }
