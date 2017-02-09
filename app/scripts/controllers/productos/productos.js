@@ -1,9 +1,12 @@
 'use strict';
 angular.module('puntoVentaApp')
-  .controller('ProductosCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('ProductosCtrl', function(authFactory) {
+    var vm = this;
+    init();
+
+    function init() {
+      authFactory.getDatos().then(function(data) {
+        vm.tabla = data.marcadores;
+      });
+    }
   });

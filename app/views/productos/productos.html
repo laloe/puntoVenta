@@ -1,1 +1,29 @@
-<h1>productos</h1>
+<div class="col-md-12 card panel scrollDiv">
+    <div class="col-md-12" style="padding-left: 25px; padding-right: 25px;">
+        <p class="text-right" style="margin-top: 10px;">
+            <button class="btn btn-success" ng-click="$ctrl.seleccionar(1,'nuevo')">Nuevo</button>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Descripción</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="x in $ctrl.tabla">
+                    <td>{{x.producto}}</td>
+                    <td>{{x.cantidad}}</td>
+                    <td>{{x.precio}}</td>
+                    <td>{{x.description}}</td>
+                    <td><button class="btn ink-reaction btn-floating-action btn-xs btn-info" ng-click="$ctrl.seleccionar()"><i class="fa fa-eye"></i></button> <button class="btn ink-reaction btn-floating-action btn-xs btn-warning" ng-click="$ctrl.seleccionar(3,'ejecutar')"><i class="fa fa-external-link"></i></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</div>
+</div>

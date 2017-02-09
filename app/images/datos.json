@@ -1,0 +1,57 @@
+{
+  "marcadores": [{
+      "producto": "silla",
+      "cantidad": 4,
+      "precio": 12.3,
+      "description": "roja"
+    },
+    {
+      "producto": "computadora",
+      "cantidad": 3,
+      "precio": 4399.13,
+      "description": "hp"
+    },
+    {
+      "producto": "monitor",
+      "cantidad": 63,
+      "precio": "Madrid",
+      "description": "Estación de Atocha"
+    },
+    {
+      "producto": "silla",
+      "cantidad": 4,
+      "precio": 12.3,
+      "description": "roja"
+    },
+    {
+      "producto": "computadora",
+      "cantidad": 3,
+      "precio": 4399.13,
+      "description": "hp"
+    },
+    {
+      "producto": "monitor",
+      "cantidad": 63,
+      "precio": "Madrid",
+      "description": "Estación de Atocha"
+    },
+    {
+      "producto": "silla",
+      "cantidad": 4,
+      "precio": 12.3,
+      "description": "roja"
+    },
+    {
+      "producto": "computadora",
+      "cantidad": 3,
+      "precio": 4399.13,
+      "description": "hp"
+    },
+    {
+      "producto": "monitor",
+      "cantidad": 63,
+      "precio": "Madrid",
+      "description": "Estación de Atocha"
+    }
+  ]
+}
