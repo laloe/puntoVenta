@@ -1,7 +1,7 @@
 <div class="col-md-12 card panel scrollDiv">
     <div class="col-md-12" style="padding-left: 25px; padding-right: 25px;">
         <p class="text-right" style="margin-top: 10px;">
-            <button class="btn btn-success" ng-click="$ctrl.seleccionar(1,'nuevo')">Nuevo</button>
+            <button class="btn btn-success btn-fill" ui-sref="main.home.nuevoProducto">Nuevo</button>
         </p>
         <table class="table">
             <thead>
@@ -19,7 +19,9 @@
                     <td>{{x.cantidad}}</td>
                     <td>{{x.precio}}</td>
                     <td>{{x.description}}</td>
-                    <td><button class="btn ink-reaction btn-floating-action btn-xs btn-info" ng-click="$ctrl.seleccionar()"><i class="fa fa-eye"></i></button> <button class="btn ink-reaction btn-floating-action btn-xs btn-warning" ng-click="$ctrl.seleccionar(3,'ejecutar')"><i class="fa fa-external-link"></i></button></td>
+                    <td><button class="btn ink-reaction btn-floating-action btn-xs btn-info btn-fill" ng-click="$ctrl.seleccionar()"><i class="fa fa-eye"></i></button>
+                        <button class="btn ink-reaction btn-floating-action btn-xs btn-warning btn-fill" ng-click="$ctrl.seleccionar()"><i class="fa fa-external-link"></i></button>
+                    </td>
                 </tr>
             </tbody>
         </table>
